@@ -67,4 +67,7 @@ Rails.application.configure do
 
   # Uncomment if you wish to allow Action Cable access from any origin.
   # config.action_cable.disable_request_forgery_protection = true
+
+  # ホストを許可リストに追加
+  config.hosts << "enword-b122.onrender.com"
 end
