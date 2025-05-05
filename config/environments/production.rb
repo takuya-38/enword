@@ -90,4 +90,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  # ホストを許可リストに追加
+  config.hosts << "enword-b122.onrender.com"
 end
